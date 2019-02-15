@@ -29,7 +29,7 @@ function addProjectDetails(e) {
 	console.log("User clicked on project " + idNumber);
 
 	console.log("projectID = " + projectID);
-	var url = $.get("http://localhost:3000/project/"+ idNumber, callback);
+	var url = $.get("https://lab6-acramer.herokuapp.com/"+ idNumber, callback);
 	console.log(url);
 	// /var htmlString = url.responseJSON[image]
 	//var htmlString = $.get(url);
